@@ -10,6 +10,7 @@ TagManager:
   - Enemy
   - Outline
   - Boss
+  - BossStage
   layers:
   - Default
   - TransparentFX
