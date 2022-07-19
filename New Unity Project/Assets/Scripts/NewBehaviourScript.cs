@@ -5,13 +5,29 @@ using UnityEngine;
 public class NewBehaviourScript : MonoBehaviour
 {
    
-    public void Activate()
+    public void ExtendedDetectorActivate()
     {
         Debug.Log("激活");
     }
-    public void DeActivate()
+    public void ExtendedDetectorDeActivate()
     {
         Debug.Log("失效");
+    }
+    public void PinchDetectorActivate()
+    {
+        Debug.Log("Cutting");
+    }
+    public void PinchDetectorDeActivate()
+    {
+        Debug.Log("Not Cutting");
+    }
+    public void LogicGateActivate()
+    {
+        Debug.Log("Gesture Correct");
+    }
+    public void LogicGateDeActivate()
+    {
+        Debug.Log("Gesture Wrong");
     }
     public void OnProximity(GameObject otherObject)
     {
