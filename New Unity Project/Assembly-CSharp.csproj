@@ -78,6 +78,7 @@
     <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
     <Compile Include="Assets\Scripts\ScissorsCollide.cs" />
     <Compile Include="Assets\Scripts\ScissorsCollide1.cs" />
+    <Compile Include="Assets\Scripts\ToolSwitch.cs" />
     <None Include="Assets\Bolt\Ludiq\Ludiq.Core\DotNetDocumentation\System.Web.Extensions.Design.xml" />
     <None Include="Assets\Bolt\Ludiq\Ludiq.Core\DotNetDocumentation\Microsoft.Build.Engine.xml" />
     <None Include="Assets\Bolt\Ludiq\Assemblies\Bolt.State.Runtime.xml" />
