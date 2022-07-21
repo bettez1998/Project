@@ -76,6 +76,7 @@
     <Compile Include="Assets\Art\CorgiEngine\ThirdParty\Tilemap\2dExtras\Tiles\Terrain Tile\Scripts\TerrainTile.cs" />
     <Compile Include="Assets\Scripts\AnimControl.cs" />
     <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
+    <Compile Include="Assets\Scripts\PinchNeedleDetector.cs" />
     <Compile Include="Assets\Scripts\ScissorsCollide.cs" />
     <Compile Include="Assets\Scripts\ScissorsCollide1.cs" />
     <Compile Include="Assets\Scripts\ToolSwitch.cs" />

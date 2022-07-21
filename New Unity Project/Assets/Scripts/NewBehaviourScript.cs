@@ -29,6 +29,14 @@ public class NewBehaviourScript : MonoBehaviour
     {
         Debug.Log("Gesture Wrong");
     }
+    public void PinchNeedleDetectorActivate()
+    {
+        Debug.Log("NeedlePinch");
+    }
+    public void PinchNeedleDetectorDeActivate()
+    {
+        Debug.Log("NoNeedlePinch");
+    }
     public void OnProximity(GameObject otherObject)
     {
         print(otherObject.name);
