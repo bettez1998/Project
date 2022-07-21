@@ -5,14 +5,16 @@ using UnityEngine;
 
 public class AnimControl : MonoBehaviour
 {
-    private Animation scissorsanimation;
+    public Animator scissors00;
+    //private Animation scissorsanimation;
     void Start()
     {
-        scissorsanimation = this.gameObject.GetComponent<Animation>();
+        //scissorsanimation = this.gameObject.GetComponent<Animation>();
     }
 
     public void PlayAnim()
     {
-        scissorsanimation.Play();
+        scissors00.Play("scissors00",0,0f);
+        //scissorsanimation.Play();
     }
 }
