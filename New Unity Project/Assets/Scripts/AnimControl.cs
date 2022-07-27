@@ -22,5 +22,10 @@ public class AnimControl : MonoBehaviour
         cuttimes += 1;
         print(cuttimes);
     }
-    
+    private void Update()
+    {
+        if(cuttimes >= 6){
+            cuttimes = 0;
+        }
+    }
 }
