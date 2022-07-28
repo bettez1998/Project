@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8273552510618625292}
   - component: {fileID: 7533538255729225138}
   m_Layer: 0
-  m_Name: Stage2_Outline01
+  m_Name: Stage2_Outline03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -70,7 +70,7 @@ SpriteRenderer:
   m_SortingLayerID: 1904640349
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 3330094469a2c6a42bfdb63e08e06ed4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 31db9b6f14e95184e98fce55fecf0cd9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
